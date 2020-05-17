@@ -2,186 +2,143 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/choicepglayout"
     tools:context=".SelectPage">
 
-    <Button
-        android:id="@+id/submitbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add Item"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
-
-
-    <TextView
-        android:id="@+id/addedItem1"
-        android:layout_width="255dp"
-        android:layout_height="37dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.358"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231" />
-
-    <TextView
-        android:id="@+id/addedItem2"
-        android:layout_width="258dp"
-        android:layout_height="39dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.424"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem1"
-        app:layout_constraintVertical_bias="0.024" />
-
-    <TextView
-        android:id="@+id/addedItem3"
-        android:layout_width="264dp"
-        android:layout_height="38dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.374"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem2"
-        app:layout_constraintVertical_bias="0.04" />
-
-    <TextView
-        android:id="@+id/addedItem4"
-        android:layout_width="262dp"
-        android:layout_height="39dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.409"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem3"
-        app:layout_constraintVertical_bias="0.038" />
-
-    <TextView
-        android:id="@+id/addedItem5"
-        android:layout_width="259dp"
-        android:layout_height="43dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.368"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem4"
-        app:layout_constraintVertical_bias=".03" />
-
-    <TextView
-        android:id="@+id/addedItem6"
-        android:layout_width="276dp"
-        android:layout_height="46dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem5"
-        app:layout_constraintVertical_bias="0.039" />
-
-    <TextView
-        android:id="@+id/addedItem7"
-        android:layout_width="268dp"
-        android:layout_height="46dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem6"
-        app:layout_constraintVertical_bias=".015" />
-
-    <TextView
-        android:id="@+id/addedItem8"
-        android:layout_width="286dp"
-        android:layout_height="50dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem7"
-        app:layout_constraintVertical_bias=".01" />
-
-    <TextView
-        android:id="@+id/addedItem9"
-        android:layout_width="289dp"
-        android:layout_height="47dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem8"
-        app:layout_constraintVertical_bias=".015" />
-
-    <TextView
-        android:id="@+id/addedItem10"
-        android:layout_width="247dp"
-        android:layout_height="50dp"
-        android:fontFamily="@font/amatic_sc"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.414"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addedItem9"
-        app:layout_constraintVertical_bias=".02" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
-        android:layout_width="321dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-3dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/addTask"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/amatic_sc"
-            android:hint="Task"
-            android:textSize="24sp" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
-        android:text="clear"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
+        android:id="@+id/reminderbutton"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:text="Remind"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/addedItem1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task1"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:hint="Task 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task2"
+        android:layout_width="255dp"
+        android:layout_height="53dp"
+        android:hint="Task 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task3"
+        android:layout_width="255dp"
+        android:layout_height="53dp"
+        android:hint="task 3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task4"
+        android:layout_width="255dp"
+        android:layout_height="53dp"
+        android:hint="Task 4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task5"
+        android:layout_width="255dp"
+        android:layout_height="53dp"
+        android:hint="Task 5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task6"
+        android:layout_width="255dp"
+        android:layout_height="53dp"
+        android:hint="Task 6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task7"
+        android:layout_width="254dp"
+        android:layout_height="45dp"
+        android:hint="Task 7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task8"
+        android:layout_width="255dp"
+        android:layout_height="53dp"
+        android:hint="Task 8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task9"
+        android:layout_width="257dp"
+        android:layout_height="55dp"
+        android:hint="Task 9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/task10"
+        android:layout_width="237dp"
+        android:layout_height="52dp"
+        android:hint="Task 10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
